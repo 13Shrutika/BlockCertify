@@ -1,0 +1,53 @@
+/* Container styling for User Panel */
+.user-panel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  background-color: #f4f4f4; /* Same background color for consistency */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Title styling */
+.user-panel-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Input fields styling */
+.user-panel-container input[type="text"],
+.user-panel-container input[type="file"] {
+  width: 90%; /* Use a consistent width */
+  padding: 10px;
+  margin-bottom: 15px; /* Space between fields */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button styling */
+.user-panel-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff; /* Blue button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Add margin to the second button */
+.user-panel-container button + button {
+  margin-top: 10px; /* Adjust the value for more or less space */
+}
+
+.user-panel-container button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

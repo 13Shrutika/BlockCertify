@@ -1,0 +1,82 @@
+/* Container styling for Admin Panel */
+.admin-panel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4; /* Same background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Panel Title */
+.admin-panel h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Input fields */
+.admin-panel input[type="text"],
+.admin-panel input[type="file"],
+.admin-panel input[type="number"],
+.admin-panel textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button styling */
+.admin-panel button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff; /* Blue button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.admin-panel button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Form label */
+.admin-panel label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+  font-size: 14px;
+}
+
+/* Message display */
+.admin-panel p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #007bff; /* Blue color for messages */
+}
+
+/* Flex container to structure inputs if needed */
+.admin-panel .flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-panel .flex-container div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.admin-panel .flex-container div:last-child {
+  margin-right: 0;
+}
